@@ -1,6 +1,10 @@
 #!/bin/bash
 
 cp docker-ce.repo /etc/yum.repo.d/
+
+#修改文件
+echo 1 > /proc/sys/net/bridge/bridge-nf-call-iptables
+
 cp kubernetes.repo /etc/yum.repo.d/
 
 # 安装 docker
