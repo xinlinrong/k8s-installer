@@ -1,0 +1,7 @@
+[docker-ce]
+name=Docker CE Repository
+name=Docker CE
+baseurl=https://mirrors.ustc.edu.cn/docker-ce/linux/centos/7.9/x86_64/stable/
+enable=1
+gpgcheck=0
+repo_gpgchck=0
